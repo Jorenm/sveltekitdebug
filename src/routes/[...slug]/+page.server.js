@@ -39,7 +39,7 @@ export async function entries() {
 export const config ={
 	isr: {
 		expiration: 10,
-		bypassToken: 'bypass'
+		bypassToken: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
 	},
 }
 
