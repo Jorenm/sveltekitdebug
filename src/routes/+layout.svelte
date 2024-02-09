@@ -1,8 +1,5 @@
 <script>
 	import "../app.sass";
-
-	/** @type {import('./$types').LayoutData} */
-	export let data;
 </script>
 
 <header class="mx-auto max-w-6xl text-center mt-6">

@@ -12,14 +12,23 @@ export async function load({ params }) {
 };
 
 // export async function entries() {
-// 	const slugs = await loadPageSlugs()
-// 	const slugsArray = slugs.map((page) => (page?.slug?.current ? { slug: page.slug.current } : null)).filter(Boolean);
+// 	// const slugs = await loadPageSlugs()
+// 	// const slugsArray = slugs.map((page) => (page?.slug?.current ? { slug: page.slug.current } : null)).filter(Boolean);
 
-// 	for (var i = 0; i < 10; i++) {
-// 		slugsArray.push({ slug: 'dynamic-page-' + i })
-// 	}
+// 	// for (var i = 0; i < 10; i++) {
+// 	// 	slugsArray.push({ slug: 'dynamic-page-' + i })
+// 	// }
 
-// 	return slugsArray
+// 	// return slugsArray
+
+// 	return [{
+// 		slug: 'asdf',
+// 	}, {
+// 		slug: 'about-us',
+// 	}, {
+// 		slug: 'products',
+	
+// 	}]
 // }
 
 // export const config ={
@@ -29,6 +38,6 @@ export async function load({ params }) {
 // 	},
 // }
 
-// export const prerender = false;
-// export const prerender = true;
-export const prerender = 'auto';
+// // export const prerender = false;
+export const prerender = true;
+// // export const prerender = 'auto';
